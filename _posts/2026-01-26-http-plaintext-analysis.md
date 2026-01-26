@@ -26,13 +26,19 @@ This lab demonstrates how HTTP traffic is transmitted in plaintext and can be ob
 ```bash
 sudo tcpdump -i lo -A
 
+![Packet capture showing plaintext traffic](/assets/images/http-plaintext/tcpdump-plaintext.png)
+
 Server Configuration
 
 nc -lvp 80
 
+![Netcat server listening](/assets/images/http-plaintext/server-listening.png)
+
 Client Connection
 
 nc 127.0.0.1 80 -v
+
+![Netcat client connection](/assets/images/http-plaintext/client-connection.png)
 
 🔍 Key Observation
 The captured packets revealed that HTTP traffic is readable in plaintext. Data appeared in ASCII format within tcpdump output, demonstrating the absence of encryption.
