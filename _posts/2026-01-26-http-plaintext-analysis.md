@@ -8,6 +8,9 @@ categories: [Networking, Security Fundamentals, Traffic Analysis]
 
 This lab demonstrates how HTTP traffic is transmitted in plaintext and can be observed using packet capture tools. The objective was to show why unencrypted protocols like HTTP present security risks, as sensitive data can be exposed during transmission.
 
+📄 **Full Technical Report:**  
+[Download the Plaintext HTTP Traffic Analysis Report](/assets/reports/plaintext-http-traffic-analysis-report.pdf)
+
 ---
 
 ## 🧪 Lab Setup
