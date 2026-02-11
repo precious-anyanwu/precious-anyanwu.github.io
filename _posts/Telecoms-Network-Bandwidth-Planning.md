@@ -200,7 +200,7 @@ Support for redundancy scenarios
 🗺️ Network Topology
 Aggregation & Redundancy Design
 
-![Traffic Calculations](assets/images/challenge2/challenge2-calculations.png)
+![Traffic Calculations](assets/images/challenge2/challenge2-calculations.jpeg)
 
 Solid lines → Core transmission paths
 
