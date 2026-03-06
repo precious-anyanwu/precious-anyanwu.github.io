@@ -8,7 +8,7 @@ Overview
 
 I am excited to share that I successfully passed the CompTIA Security+ certification exam with a score of 782.
 
-![Security+ Certification](assets/images/security-plus/security-plus-pass.jpeg)
+![Security+ Certification](assets/images/security-plus/security-plus-certification-score.jpeg)
 
 Security+ is a globally recognized cybersecurity certification that validates foundational knowledge across:
 
