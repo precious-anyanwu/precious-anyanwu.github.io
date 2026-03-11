@@ -36,6 +36,10 @@ Network Interface	enp0s3
 The IDS monitored traffic from the lab network interface and logged alerts when rule conditions were met.
 
 Detection Rule 1: ICMP Traffic to Google DNS
+
+![Snort ICMP Rule Creation](/assets/images/snort-lab/snort-detection-rule-8.8.8.8-creation.png)
+*Figure 1: Creating a Snort rule to detect ICMP traffic destined for 8.8.8.8.*
+
 Rule Definition
 
 A Snort rule was created to detect ICMP packets destined for Google's public DNS server.
@@ -70,6 +74,10 @@ Option	Function
 Snort then began monitoring network traffic on the interface.
 
 Testing the ICMP Detection Rule
+
+![Ping Test Results](/assets/images/snort-lab/ping8.8.8.8-ping8.8.4.4.png)
+*Figure 2: Testing ICMP traffic using ping to compare detection behavior.*
+
 Test 1: Ping to Alternate Google DNS
 ping 8.8.4.4
 
@@ -80,6 +88,9 @@ No alert was triggered because the rule only monitors traffic directed at 8.8.8.
 Test 2: Ping to Targeted Address
 ping 8.8.8.8
 
+![Snort ICMP Traffic Detection](/assets/images/snort-lab/snort8.8.8.8-ping-traffic-capture.png)
+*Figure 3: Snort detecting ICMP traffic directed to 8.8.8.8.*
+
 Result:
 
 Snort successfully generated an alert indicating the detection of an ICMP packet matching the rule conditions.
@@ -89,6 +100,9 @@ This confirmed that the rule was functioning correctly.
 Detection Rule 2: TCP Connection to Port 4444
 
 The rule was then modified to detect TCP connection attempts targeting port 4444.
+
+![Snort TCP Rule Creation](/assets/images/snort-lab/snort-detection-rule-on-port4444-creation.png)
+*Figure 4: Creating a Snort rule to detect TCP connections to port 4444.*
 
 alert tcp any any -> any 4444 (msg:"Connection to remote IP on port 4444"; sid:1000002; rev:1;)
 Purpose
@@ -105,6 +119,9 @@ Monitoring connections to this port can help detect potential malicious activity
 
 Generating Test Traffic
 
+![hping3 SYN Packet Test](/assets/images/snort-lab/hping3-example.com-on-port4444.png)
+*Figure 5: Generating a TCP SYN packet to port 4444 using hping3.*
+
 Traffic was generated using hping3.
 
 sudo hping3 -c 1 -p 4444 -S example.com
@@ -118,6 +135,9 @@ example.com	Destination host
 This command sends a TCP SYN packet to example.com on port 4444, simulating a connection attempt.
 
 Detection Results
+
+![Snort Port 4444 Detection](/assets/images/snort-lab/snort-detection-on-port-4444.png)
+*Figure 6: Snort alert generated after detecting TCP SYN traffic targeting port 4444.*
 
 When the packet was sent:
 
