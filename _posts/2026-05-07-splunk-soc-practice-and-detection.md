@@ -1,5 +1,4 @@
 ## Beginner SOC Lab with Splunk — Windows Log Analysis and Authentication Monitoring
-# Building a Beginner SOC Lab with Splunk: Log Analysis and Suspicious Authentication Detection
 
 ## Overview
 
@@ -69,17 +68,8 @@ Key setup tasks included:
 * Creating indexes
 * Uploading and monitoring log files
 
-## Screenshot Placeholder
 
-### Screenshot 1 — Splunk Home Dashboard
-
-Add a screenshot showing:
-
-* Splunk successfully running
-* Main dashboard/home screen
-* Logged-in interface
-
-Place the screenshot directly below this section.
+![Splunk Home Dashboard](https://precious-anyanwu.github.io/assets/images/screenshots/splunk-home-dashboard.png)
 
 ---
 
@@ -121,19 +111,7 @@ index=* | head 20
 * Understanding event structure
 * Navigating Splunk dashboards
 
-## Screenshot Placeholder
-
-### Screenshot 2 — Example SPL Search Results
-
-Add a screenshot showing:
-
-* A search query
-* Returned events
-* Time range selector
-* Event count
-
-Place the screenshot directly below this section.
-
+![Basic SPL Search Results](https://precious-anyanwu.github.io/assets/images/screenshots/splunk-search-results-basic-spl.png)
 ---
 
 # Phase 3 — Windows Log Monitoring and Log Forwarding
@@ -162,18 +140,7 @@ The goal was to observe and analyze:
 
 This setup introduced me to the type of centralized log collection and monitoring workflow commonly used in SOC environments.
 
-## Screenshot Placeholder
-
-### Screenshot 3 — Splunk Receiving Windows Logs
-
-Add a screenshot showing:
-
-* Windows logs successfully appearing in Splunk
-* Host field from the Windows machine
-* Source or sourcetype information
-* Event visibility inside Splunk
-
-Place the screenshot directly below this section.
+![Windows Logs Successfully Forwarded to Splunk](https://precious-anyanwu.github.io/assets/images/screenshots/windows-logs-forwarded-to-splunk.png)
 
 ---
 
@@ -216,30 +183,11 @@ index=* EventCode=4625 OR EventCode=4624
 
 This exercise helped me understand how SOC analysts correlate events to identify suspicious behavior.
 
-## Screenshot Placeholder
-
-### Screenshot 4 — Failed Logon Events (4625)
-
-Add a screenshot showing:
-
-* Multiple failed logon attempts
-* EventCode 4625
-* Timestamp visibility
-
-Place directly below this subsection.
+![Windows Event ID 4625 Failed Logons](https://precious-anyanwu.github.io/assets/images/screenshots/windows-event-4625-failed-logons.png)
 
 ---
 
-### Screenshot 5 — Successful Logon Event (4624)
-
-Add a screenshot showing:
-
-* Successful authentication event
-* Logon Type 3
-* Source IP address
-* Workstation name “kali”
-
-Place directly below this subsection.
+![Windows Event ID 4624 Successful Network Logon](https://precious-anyanwu.github.io/assets/images/screenshots/windows-event-4624-successful-network-logon.png)
 
 ---
 
