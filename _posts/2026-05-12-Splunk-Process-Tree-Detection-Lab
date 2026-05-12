@@ -157,37 +157,14 @@ This helps identify:
 
 # Screenshot 1 — Event ID 4688 Process Creation Events
 
-[Insert Screenshot Here]
-
-Suggested image:
-
-process-creation-event-4688.png
-
-Screenshot should display:
-
-* EventCode 4688
-* Process names
-* Parent process fields
-* Process command line
-* Timestamp visibility
+![Notepad Spawning 4688 Event Lab](https://precious-anyanwu.github.io/assets/images/4688lab/Notepad-spawning-4688-event-lab.png)
 
 ---
 
 # Screenshot 2 — CMD → PowerShell → Notepad Process Chain
 
-[Insert Screenshot Here]
+![LAB 1 EventCode 4688 Detection](https://precious-anyanwu.github.io/assets/images/4688lab/Lab1-Eventcode-4688-detection.png)
 
-Suggested image:
-
-cmd-powershell-notepad-process-chain.png
-
-Screenshot should clearly show:
-
-* cmd.exe
-* powershell.exe
-* notepad.exe
-* Creator_Process_Name
-* New_Process_Name
 
 ---
 
@@ -252,37 +229,13 @@ This behavior is important because attackers frequently use hidden PowerShell ex
 
 # Screenshot 3 — Hidden PowerShell Execution
 
-[Insert Screenshot Here]
-
-Suggested image:
-
-hidden-powershell-execution.png
-
-Screenshot should display:
-
-* powershell.exe
-* Hidden window arguments
-* Process command line
-* Parent-child relationships
+![Notepad Spawning 4688 Event Lab](https://precious-anyanwu.github.io/assets/images/4688lab/Notepad-spawning-4688-event-lab.png)
 
 ---
 
 # Screenshot 4 — Hidden Execution Process Chain Investigation
 
-[Insert Screenshot Here]
-
-Suggested image:
-
-hidden-process-chain-analysis.png
-
-Screenshot should clearly show:
-
-* powershell.exe
-* cmd.exe
-* notepad.exe
-* Creator_Process_Name
-* New_Process_Name
-* Process_Command_Line
+![LAB 2 EventCode 4688 Detection](https://precious-anyanwu.github.io/assets/images/4688lab/Lab2-Eventcode-4688-detection.png)
 
 ---
 
