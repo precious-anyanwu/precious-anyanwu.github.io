@@ -312,34 +312,8 @@ This project strengthened my ability to interpret Windows telemetry and understa
 
 ---
 
-# Suggested GitHub Repository Name
 
-```text
-splunk-process-tree-detection-lab
-```
-
----
-
-# Suggested README Title
-
-# Splunk Process Tree Detection Lab — Windows Event ID 4688 Investigation
-
----
-
-# Suggested Screenshot Folder Structure
-
-```text
-screenshots/
-│
-├── process-creation-event-4688.png
-├── cmd-powershell-notepad-process-chain.png
-├── hidden-powershell-execution.png
-└── hidden-process-chain-analysis.png
-```
-
----
-
-# Suggested Keywords
+# Keywords
 
 Splunk, SIEM, SOC Analyst, Event ID 4688, Windows Process Creation, PowerShell Detection, Threat Hunting, Process Tree Analysis, Blue Team, Security Monitoring, Sysmon, Parent Child Process, Detection Engineering
 
