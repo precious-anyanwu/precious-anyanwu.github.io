@@ -113,19 +113,7 @@ This behavior resembles activity commonly observed in real-world attacks.
 
 # Screenshot 1 — Suspicious PowerShell Command Executed in CMD
 
-[Insert Screenshot Here]
-
-Suggested image:
-
-powershell-download-command-cmd.png
-
-The screenshot should clearly display:
-
-* CMD window
-* PowerShell command
-* Hidden execution flags
-* Invoke-WebRequest usage
-* Suspicious PowerShell syntax
+![Suspicious PowerShell Command Executed in CMD](https://precious-anyanwu.github.io/assets/images/splunk-network/powershell-download-command-cmd.png)
 
 ---
 
@@ -183,19 +171,7 @@ This type of activity is frequently investigated during malware and intrusion an
 
 # Screenshot 2 — Sysmon Event ID 1 PowerShell Process Creation
 
-[Insert Screenshot Here]
-
-Suggested image:
-
-sysmon-eventid1-powershell-process.png
-
-The screenshot should display:
-
-* EventCode 1
-* powershell.exe
-* ParentImage field
-* CommandLine field
-* ProcessGuid field
+![Sysmon Event ID 1 PowerShell Process Creation](https://precious-anyanwu.github.io/assets/images/splunk-network/sysmon-eventid1-powershell-process.png)
 
 ---
 
@@ -239,20 +215,7 @@ This demonstrated how process creation and network telemetry can be linked toget
 
 # Screenshot 3 — Sysmon Event ID 3 PowerShell Network Connection
 
-[Insert Screenshot Here]
-
-Suggested image:
-
-sysmon-eventid3-powershell-network-connection.png
-
-The screenshot should display:
-
-* EventCode 3
-* powershell.exe
-* DestinationIp
-* DestinationPort
-* ProcessGuid
-
+![Sysmon Event ID 3 PowerShell Network Connection](https://precious-anyanwu.github.io/assets/images/splunk-network/sysmon-eventid3-powershell-network-connection.png)
 ---
 
 # Correlating Process Creation and Network Activity
@@ -315,20 +278,10 @@ This mirrors how SOC analysts investigate suspicious PowerShell activity in real
 
 # Screenshot 4 — Correlated PowerShell Process and Network Activity
 
-[Insert Screenshot Here]
+![Correlated PowerShell Process and Network Activity](https://precious-anyanwu.github.io/assets/images/splunk-network/correlated-powershell-network-activity.png)
 
-Suggested image:
 
-correlated-powershell-network-activity.png
-
-The screenshot should display:
-
-* EventCode 1 and EventCode 3
-* Shared ProcessGuid
-* ParentImage
-* CommandLine
-* DestinationIp
-* DestinationPort
+![ProcessGuid Correlation Filter](https://precious-anyanwu.github.io/assets/images/splunk-network/processGUID-filter.png)
 
 ---
 
