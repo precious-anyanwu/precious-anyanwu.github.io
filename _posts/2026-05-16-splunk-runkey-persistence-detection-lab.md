@@ -168,19 +168,7 @@ This means PowerShell will execute automatically when the user logs in.
 
 # Screenshot 1 — Registry Persistence Command Execution
 
-[Insert Screenshot Here]
-
-Suggested image:
-
-runkey-persistence-command.png
-
-The screenshot should display:
-
-* CMD window
-* reg add command
-* Registry Run key path
-* PowerShell persistence payload
-
+![Registry Persistence Command Execution](https://precious-anyanwu.github.io/assets/images/runkey/registry-modification-cmd.png)
 ---
 
 # Why This Persistence Method Is Suspicious
@@ -338,21 +326,7 @@ This distinction is extremely important during SOC investigations.
 
 # Screenshot 2 — Sysmon Event ID 13 Persistence Detection in Splunk
 
-[Insert Screenshot Here]
-
-Suggested image:
-
-sysmon-event13-runkey-detection.png
-
-The screenshot should display:
-
-* EventCode 13
-* reg.exe
-* TargetObject
-* CurrentVersion\Run
-* PowerShell payload in Details
-* User field visibility
-
+![Sysmon Event ID 13 Persistence Detection](https://precious-anyanwu.github.io/assets/images/runkey/splunk-eventcode13-detection.png)
 ---
 
 # How Defenders Distinguish Benign vs Malicious Persistence
