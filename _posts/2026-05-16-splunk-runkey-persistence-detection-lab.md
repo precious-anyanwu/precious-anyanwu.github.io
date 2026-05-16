@@ -451,36 +451,6 @@ By analyzing registry modifications and autorun entries, I gained practical expe
 This project strengthened my understanding of how defenders identify suspicious persistence mechanisms used by attackers to maintain long-term access to compromised systems.
 
 ---
-
-# Suggested GitHub Repository Name
-
-```text
-splunk-runkey-persistence-detection-lab
-```
-
----
-
-# Suggested README Title
-
-# Splunk Persistence Detection Lab — Registry Run Key Monitoring with Sysmon Event ID 13
-
----
-
-# Suggested Screenshot Folder Structure
-
-```text
-screenshots/
-│
-├── runkey-persistence-command.png
-└── sysmon-event13-runkey-detection.png
-```
-
----
-
-# Suggested Keywords
-
-Splunk, SIEM, Sysmon, Event ID 13, Registry Persistence, Run Keys, Windows Autoruns, Threat Hunting, PowerShell Persistence, SOC Analyst, Blue Team, Persistence Detection, Windows Registry Monitoring, Detection Engineering
-
 ---
 
 # Author
