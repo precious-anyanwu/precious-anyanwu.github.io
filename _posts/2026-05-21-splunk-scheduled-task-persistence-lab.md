@@ -113,23 +113,7 @@ which records scheduled task creation activity.
 
 # Screenshot 1 — Scheduled Task Creation Command
 
-[Insert Screenshot Here]
-
-Suggested image:
-
-```text
-scheduled-task-command.png
-```
-
-The screenshot should display:
-
-* CMD window
-* schtasks command
-* Task name
-* Trigger interval
-* Executable configured to run
-
----
+![Scheduled Task Creation Command](https://precious-anyanwu.github.io/assets/images/scheduled-task/scheduled-task-creation.png)
 
 # Why Scheduled Tasks Are Dangerous
 
@@ -208,22 +192,7 @@ Important fields analyzed included:
 
 # Screenshot 2 — Event ID 4698 Detection in Splunk
 
-[Insert Screenshot Here]
-
-Suggested image:
-
-```text
-splunk-event4698-detection.png
-```
-
-The screenshot should display:
-
-* EventCode 4698
-* TaskName
-* Command
-* SubjectUserName
-* TaskContent
-* Scheduled task details
+![Event ID 4698 Detection in Splunk](https://precious-anyanwu.github.io/assets/images/scheduled-task/scheduled-task-detection-splunk.png)
 
 ---
 
