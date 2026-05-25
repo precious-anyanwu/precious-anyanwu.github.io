@@ -359,7 +359,7 @@ This demonstrated how service persistence can lead directly to process execution
 ![EventCode 1 Service Execution Correlation](https://precious-anyanwu.github.io/assets/images/7045lab/EventCode1-of-7045-investigation.png)
 
 
-![EventCode 1 Service Execution Correlation](https://precious-anyanwu.github.io/assets/images/7045lab/EventCode1-of-7045-investigation.png)
+![Full EventCode 1 Correlation Investigation](https://precious-anyanwu.github.io/assets/images/7045lab/EventCode1-of-7045-investigation-full-event.png)
 
 
 # How Defenders Reduce Noise
