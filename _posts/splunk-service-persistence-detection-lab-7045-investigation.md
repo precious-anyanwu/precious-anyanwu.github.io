@@ -123,21 +123,7 @@ which records service installation activity.
 
 # Screenshot 1 — Windows Service Creation Command
 
-[Insert Screenshot Here]
-
-Suggested image:
-
-```text id="yjvjyv"
-service-creation-cmd.png
-```
-
-The screenshot should display:
-
-* CMD window
-* sc create command
-* Service name
-* ImagePath
-* Auto-start configuration
+![Service Creation and Start Command](https://precious-anyanwu.github.io/assets/images/7045lab/7045-service-creation-and-start.png)
 
 ---
 
@@ -231,23 +217,7 @@ Important fields analyzed included:
 
 # Screenshot 2 — Event ID 7045 Detection in Splunk
 
-[Insert Screenshot Here]
-
-Suggested image:
-
-```text id="2rdv9u"
-splunk-7045-service-detection.png
-```
-
-The screenshot should display:
-
-* EventCode 7045
-* ServiceName
-* ImagePath
-* StartType
-* AccountName
-* Service installation details
-
+![Event ID 7045 Detection in Splunk](https://precious-anyanwu.github.io/assets/images/7045lab/7045-splunk-detection.png)
 ---
 
 # Which Service Names Increase Suspicion
@@ -386,23 +356,11 @@ This demonstrated how service persistence can lead directly to process execution
 
 # Screenshot 3 — Correlated Service Execution Activity
 
-[Insert Screenshot Here]
+![EventCode 1 Service Execution Correlation](https://precious-anyanwu.github.io/assets/images/7045lab/EventCode1-of-7045-investigation.png)
 
-Suggested image:
 
-```text id="t6tw7d"
-service-4688-correlation.png
-```
+![EventCode 1 Service Execution Correlation](https://precious-anyanwu.github.io/assets/images/7045lab/EventCode1-of-7045-investigation.png)
 
-The screenshot should display:
-
-* EventCode 7045
-* EventCode 4688
-* Service creation activity
-* Subsequent process execution
-* Correlated attack workflow
-
----
 
 # How Defenders Reduce Noise
 
