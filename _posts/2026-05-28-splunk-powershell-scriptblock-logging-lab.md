@@ -151,22 +151,11 @@ These commands generated PowerShell execution events and Script Block Logging te
 
 # Screenshot 1 — PowerShell Telemetry Generation
 
-[Insert Screenshot Here]
+![PowerShell Script Block Logging Configuration](https://precious-anyanwu.github.io/assets/images/4101lab/4101-event-generation.png)
 
-Suggested image:
 
-```text
-powershell-scriptblock-command.png
-```
+![PowerShell Telemetry Generation](https://precious-anyanwu.github.io/assets/images/4101lab/4101-event-generation2.png)
 
-The screenshot should display:
-
-* PowerShell execution
-* Script block logging commands
-* Invoke-WebRequest execution
-* Telemetry generation activity
-
----
 
 # Why Attackers Abuse PowerShell
 
@@ -307,23 +296,12 @@ This dramatically improves:
 
 ---
 
-# Screenshot 2 — Event ID 4104 Detection in Splunk
+# Screenshot — Event ID 4104 Detection in Splunk
 
-[Insert Screenshot Here]
+![Event ID 4104 Detection in Splunk](https://precious-anyanwu.github.io/assets/images/4101lab/4101-splunk-Detection.png)
 
-Suggested image:
 
-```text
-splunk-4104-detection.png
-```
-
-The screenshot should display:
-
-* EventCode 4104
-* ScriptBlockText
-* PowerShell execution details
-* Invoke-WebRequest visibility
-* PowerShell operational logs
+![ScriptBlockText Investigation in Splunk](https://precious-anyanwu.github.io/assets/images/4101lab/4101-splunk-Detection2.png)
 
 ---
 
@@ -447,23 +425,9 @@ This demonstrated how PowerShell execution telemetry can be combined with proces
 
 ---
 
-# Screenshot 3 — Correlated PowerShell Investigation
+# Screenshot — Correlated PowerShell Investigation
 
-[Insert Screenshot Here]
-
-Suggested image:
-
-```text
-4104-eventid1-correlation.png
-```
-
-The screenshot should display:
-
-* EventCode 4104
-* EventCode 1 or 4688
-* Process execution telemetry
-* PowerShell activity
-* Correlated investigation workflow
+![Event ID 4104 and Event ID 1 Correlation](https://precious-anyanwu.github.io/assets/images/4101lab/4101-eventid1-correlation.png)
 
 ---
 
