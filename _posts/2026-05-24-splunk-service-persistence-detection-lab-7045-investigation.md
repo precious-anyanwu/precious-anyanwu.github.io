@@ -121,8 +121,6 @@ which records service installation activity.
 
 ---
 
-# Screenshot 1 — Windows Service Creation Command
-
 ![Service Creation and Start Command](https://precious-anyanwu.github.io/assets/images/7045lab/7045-service-creation-and-start.png)
 
 ---
@@ -215,9 +213,8 @@ Important fields analyzed included:
 
 ---
 
-# Screenshot 2 — Event ID 7045 Detection in Splunk
-
 ![Event ID 7045 Detection in Splunk](https://precious-anyanwu.github.io/assets/images/7045lab/7045-splunk-detection.png)
+
 ---
 
 # Which Service Names Increase Suspicion
@@ -354,8 +351,6 @@ This demonstrated how service persistence can lead directly to process execution
 
 ---
 
-# Screenshot 3 — Correlated Service Execution Activity
-
 ![EventCode 1 Service Execution Correlation](https://precious-anyanwu.github.io/assets/images/7045lab/EventCode1-of-7045-investigation.png)
 
 
@@ -453,10 +448,6 @@ By analyzing Event ID 7045 and correlating it with process execution telemetry, 
 This project strengthened my understanding of how Windows services are abused in real-world attacks and how defenders detect suspicious service activity in enterprise environments.
 
 ---
-
-# Suggested GitHub Repository Name
-
-
 
 # Author
 
