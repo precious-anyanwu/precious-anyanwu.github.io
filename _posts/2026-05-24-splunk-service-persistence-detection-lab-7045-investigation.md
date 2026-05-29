@@ -86,13 +86,13 @@ The objective of this lab was to simulate attacker persistence through Windows s
 
 The following command was executed as Administrator:
 
-```cmd id="fjlwmx"
+```cmd
 sc create UpdaterService binPath= "C:\Windows\System32\notepad.exe" start= auto
 ```
 
 The service was then started using:
 
-```cmd id="jv3m51"
+```cmd
 sc start UpdaterService
 ```
 
@@ -102,7 +102,7 @@ sc start UpdaterService
 
 The command creates a Windows service named:
 
-```text id="ivd2h4"
+```text
 UpdaterService
 ```
 
@@ -123,6 +123,7 @@ which records service installation activity.
 
 ![Service Creation and Start Command](https://precious-anyanwu.github.io/assets/images/7045lab/7045-service-creation-and-start.png)
 
+---
 
 # Why Attackers Abuse Services
 
@@ -150,7 +151,7 @@ This makes them highly effective for:
 
 Many Windows services execute with:
 
-```text id="77bz3q"
+```text
 NT AUTHORITY\SYSTEM
 ```
 
@@ -186,7 +187,7 @@ This event helps analysts identify:
 
 # SPL Query Used
 
-```spl id="dcv4dw"
+```spl
 index=wineventlog EventCode=7045
 ```
 
@@ -214,6 +215,7 @@ Important fields analyzed included:
 
 ![Event ID 7045 Detection in Splunk](https://precious-anyanwu.github.io/assets/images/7045lab/7045-splunk-detection.png)
 
+---
 
 # Which Service Names Increase Suspicion
 
@@ -240,7 +242,7 @@ Attackers commonly use deceptive names to blend malicious services into legitima
 
 Defenders become highly suspicious when services execute from locations such as:
 
-```text id="0vhfln"
+```text
 C:\Users\
 C:\Temp\
 AppData\
@@ -257,7 +259,7 @@ Other suspicious indicators include:
 
 Examples of concerning executables include:
 
-```text id="djvnnn"
+```text
 powershell.exe
 cmd.exe
 rundll32.exe
@@ -329,7 +331,7 @@ This helps reconstruct attacker behavior and determine whether the created servi
 
 # Correlation SPL Query
 
-```spl id="1x1i0r"
+```spl
 index=wineventlog (EventCode=7045 OR EventCode=4688)
 ```
 
@@ -339,7 +341,7 @@ index=wineventlog (EventCode=7045 OR EventCode=4688)
 
 The investigation revealed:
 
-```text id="jpkqte"
+```text
 sc.exe
       └── service installation
               └── notepad.exe execution
@@ -351,9 +353,11 @@ This demonstrated how service persistence can lead directly to process execution
 
 ![EventCode 1 Service Execution Correlation](https://precious-anyanwu.github.io/assets/images/7045lab/EventCode1-of-7045-investigation.png)
 
+---
 
 ![Full EventCode 1 Correlation Investigation](https://precious-anyanwu.github.io/assets/images/7045lab/EventCode1-of-7045-investigation-full-event.png)
 
+---
 
 # How Defenders Reduce Noise
 
