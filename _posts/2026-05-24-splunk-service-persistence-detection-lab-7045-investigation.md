@@ -123,7 +123,6 @@ which records service installation activity.
 
 ![Service Creation and Start Command](https://precious-anyanwu.github.io/assets/images/7045lab/7045-service-creation-and-start.png)
 
----
 
 # Why Attackers Abuse Services
 
@@ -215,7 +214,6 @@ Important fields analyzed included:
 
 ![Event ID 7045 Detection in Splunk](https://precious-anyanwu.github.io/assets/images/7045lab/7045-splunk-detection.png)
 
----
 
 # Which Service Names Increase Suspicion
 
