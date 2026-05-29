@@ -44,6 +44,8 @@ The following command was executed from PowerShell:
 powershell -c "Invoke-WebRequest https://example.com"
 ```
 
+![PowerShell Invoke-WebRequest Event Generation](https://precious-anyanwu.github.io/assets/images/event-correlation/powershell-iwr-event-generation.png)
+
 This simulated:
 
 * External web communication
@@ -100,6 +102,8 @@ Process correlation is a critical SOC investigation skill because attackers rare
 ---
 
 # Event ID 4688 — Windows Process Creation Analysis
+
+![Windows Event ID 4688 Process Creation](https://precious-anyanwu.github.io/assets/images/event-correlation/powershell-iwr-eventid4688.png)
 
 ## What Was Observed
 
@@ -166,6 +170,8 @@ High-integrity PowerShell execution is important because elevated PowerShell pro
 
 # Event ID 4104 — PowerShell Script Block Logging
 
+![Additional Event ID 4104 Script Block Detection](https://precious-anyanwu.github.io/assets/images/event-correlation/powershell-iwr-eventid4104.1.png)
+
 ## Why Event ID 4104 Matters
 
 PowerShell Script Block Logging is one of the highest-value telemetry sources in Windows security monitoring because it reveals the actual PowerShell code executed on the system.
@@ -230,6 +236,8 @@ This makes Event ID 4104 extremely powerful for threat hunting and incident inve
 
 # Event ID 1 — Sysmon Process Creation
 
+![Sysmon Event ID 1 Process Creation](https://precious-anyanwu.github.io/assets/images/event-correlation/powershell-iwr-eventid1.png)
+
 Sysmon Event ID 1 provided deeper process visibility than standard Windows logging.
 
 Important fields observed included:
@@ -280,6 +288,8 @@ This nested PowerShell execution pattern is important because attackers frequent
 ---
 
 # Event ID 22 — Sysmon DNS Query Investigation
+
+![Sysmon Event ID 22 DNS Query Detection](https://precious-anyanwu.github.io/assets/images/event-correlation/powershell-iwr-eventid22.png)
 
 Sysmon Event ID 22 revealed DNS resolution activity associated with the PowerShell command.
 
