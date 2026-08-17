@@ -492,9 +492,9 @@ The investigation should answer:
 
 # 15. Preliminary Severity
 
-## Severity: High
+## Severity: Medium
 
-I would initially assign a **High preliminary severity** because:
+I would initially assign a **Medium preliminary severity** because:
 
 * The email is assessed as malicious.
 * The user interacted with the phishing URL.
