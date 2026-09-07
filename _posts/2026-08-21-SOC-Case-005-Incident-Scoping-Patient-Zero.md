@@ -1,11 +1,10 @@
 ---
-
 layout: post
 title: "SOC Investigation Case Study — Incident Scoping and Patient Zero"
 date: 2026-08-21
 categories: [SOC, "Incident Response", Phishing, "Threat Detection"]
 tags: [phishing, incident-scoping, patient-zero, lateral-movement, PowerShell, Sysmon, Windows, SOC]
-----------------------------------------------------------------------------------------------------
+---
 
 # 🧪 SOC Case #005 — Incident Scoping & Patient Zero
 
@@ -16,6 +15,7 @@ This investigation focused on a different SOC question:
 > **How far did the attack spread?**
 
 Rather than analyzing one suspicious event in isolation, the objective was to correlate email, endpoint, network, authentication and file-share telemetry across multiple workstations.
+
 
 The investigation involved three hosts:
 
