@@ -3,7 +3,7 @@
 layout: post
 title: "SOC Investigation Case Study — Incident Scoping and Patient Zero"
 date: 2026-08-21
-categories: [SOC, Incident Response, Phishing, Threat Detection]
+categories: [SOC, "Incident Response", Phishing, "Threat Detection"]
 tags: [phishing, incident-scoping, patient-zero, lateral-movement, PowerShell, Sysmon, Windows, SOC]
 ----------------------------------------------------------------------------------------------------
 
