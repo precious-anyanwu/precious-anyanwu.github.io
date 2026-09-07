@@ -1,11 +1,10 @@
 ---
-
 layout: post
 title: "SOC Investigation Case Study — Credential Phishing and Microsoft 365 Account Compromise"
 date: 2026-08-21
-categories: [SOC, Phishing, Incident Response, Microsoft 365]
+categories: [SOC, Phishing, "Incident Response", "Microsoft 365"]
 tags: [phishing, credential-theft, account-compromise, MFA, Microsoft-365, SOC, incident-response]
---------------------------------------------------------------------------------------------------
+---
 
 # 🧪 SOC Phishing Case #003 — Credential Phishing + Possible Account Compromise
 
